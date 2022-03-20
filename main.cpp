@@ -12,5 +12,9 @@ if (a>b)
         cout<<"max= "<< a << '\n';
 else
         cout <<"max= "<< b << '\n';
-    return 0;
+if (a < b)
+        cout <<"min= "<< a << '\n';
+else
+        cout << "min= "<< b << '\n';
+return 0;
 }
